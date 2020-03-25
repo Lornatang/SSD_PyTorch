@@ -1,0 +1,24 @@
+# --------------------- If use pip -----------------------------
+numpy
+opencv-python
+torch
+torchvision
+matplotlib
+tqdm
+pillow
+visdom
+pycocotools
+imutils
+
+# -------------------------------------------------------------- #
+#                          optional                              #
+# -------------------------------------------------------------- #
+
+
+# ------------------ If use anconda -----------------------------
+# conda update -yn base -c defaults conda
+# conda install -yc anaconda numpy opencv matplotlib tqdm pillow ipython future
+# conda install -yc conda-forge scikit-image pycocotools tensorboard
+# conda install -yc spyder-ide spyder-line-profiler
+# conda install -yc pytorch pytorch torchvision
+# conda install -yc conda-forge protobuf numpy && pip install onnx  # https://github.com/onnx/onnx#linux-and-macos

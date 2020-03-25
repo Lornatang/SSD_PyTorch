@@ -122,3 +122,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# custom
+.idea
+.vscode
+*.DS_Store
+
+data/voc
+weights/vgg16_reducedfc.pth
